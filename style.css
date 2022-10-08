@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+    margin:0%;
+    padding:0%;
+}
+#pozadina{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    position: fixed;
+}
+#dan{
+    background-color: lightblue;;
+    margin:15px;
+    font-size: 35px;
+    padding: 3px;
+    display: block;
+}
+#datum{
+    background-color: lightblue;
+    margin:15px;
+    font-size: 35px;
+    padding: 3px;
+    display: block;
+}
+#vrijeme{
+    float: right;
+}
+#div-sa-namazima{
+    padding: 15px 0 15px 10px;
+    width: 30%;
+    height:100%;
+    display: flex;
+    display: grid;
+}
+.namaz{
+    background-color: lightblue;
+    margin:auto;
+    font-size: 35px;
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+    float: right;
+}
